@@ -32,4 +32,60 @@ I performed essential cleaning steps, such as removing stopwords and non-alphabe
 **TF-IDF and Word2Vec Insights:** 
 The analysis of word importance and embeddings revealed the most relevant words for sentiment classification, with the ability to identify similar words based on their context.
 
+__________________________________
 
+## **2. Stage: DATA PRE-PROCESSING**
+
+**💻Data Cleaning and Transformation:**
+
+Removed HTML, retaining only meaningful text.
+Converted numeric values to words for better NLP understanding.
+Stripped non-alphanumeric characters for relevant content.
+Standardized text to lowercase for consistency.
+
+**🛑Stopwords Removal:**
+
+Applied language-specific stopword removal using dynamic detection (English, Spanish, etc.).
+Implemented custom tokenization to ensure accuracy without relying on external tools.
+
+
+**📖Lemmatization:**
+
+Utilized WordNet lemmatizer to reduce words to their base form, improving semantic consistency.
+
+
+**💬Text Preprocessing Pipeline:**
+
+Automated preprocessing in a single Python function for consistency and reproducibility.
+Optimized pipeline for speed and memory usage, handling large datasets efficiently.
+
+
+## **Overall data Pre-processing:**
+
+**Positive Reviews:**
+
+Common terms like "good", "great", "love", "quality", and "perfect" dominate, indicating high customer satisfaction and product endorsement.
+"Recommend" strongly suggests positive sentiment and willingness to promote the product.
+
+**Negative Reviews:**
+
+Words like "dont", "poor", "waste", "returned", and "cheap" reveal significant dissatisfaction and product issues.
+Frequent mentions of "returned" signal problems leading to product returns.
+
+**Frequent vs. Specific Terms:**
+
+High-frequency words like "good" and "love" reflect general satisfaction.
+Low-frequency terms (e.g., "waste", "returned") pinpoint specific issues such as product defects or poor quality.
+
+**Effective Preprocessing:**
+
+Stopword removal and lemmatization streamlined text, making sentiment analysis more accurate.
+Tokenization improved the granularity of analysis, focusing on meaningful words that represent key product feedback.
+
+**Data Cleaning Impact:**
+
+Noise reduction via text cleaning and stopword removal enhanced the focus on key sentiment-driving words, enabling better feature extraction for sentiment modeling.
+
+## 💡**Plan for stage 3:**
+
+Leverage advanced NLP models (e.g., TF-IDF, word embeddings) to capture deeper context and improve sentiment classification.
