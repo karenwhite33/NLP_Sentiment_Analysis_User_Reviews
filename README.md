@@ -88,4 +88,7 @@ Noise reduction via text cleaning and stopword removal enhanced the focus on key
 
 ## 💡**Plan for stage 3:**
 
-Leverage advanced NLP models (e.g., TF-IDF, word embeddings) to capture deeper context and improve sentiment classification.
+Leverage advanced NLP models (e.g., TF-IDF, word embeddings) to capture deeper context and improve sentiment classification. Creat and train 2 ML models to compare performances.
+
+## 💡**Plan for stage 4:**
+Create a Deep Learning model from one simple layer to iterate over more models to find better hiperparameters and performance.
