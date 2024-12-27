@@ -1,5 +1,4 @@
-# NLP **Sentiment Analysis User Reviews** (in progress Dec 2024)
-***The project is currently in development, right now on stage 3-4: MODEL TRAINING AND TESTING: 2 ML models and 1 Deep learning model.***
+# NLP **Sentiment Analysis User Reviews**
 
 Drive link to full folders: https://drive.google.com/drive/folders/1BSvsK9gnz1m4nSbdmZfbohlbCA0HceyO?usp=sharing
 
